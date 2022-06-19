@@ -1,0 +1,25 @@
+{
+  "name": "wherecontextbot2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "update": "node ./src/deploy-commands.js"
+  },
+  "keywords": [],
+  "author": "Silas De Vuyst",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.15.0",
+    "@discordjs/rest": "^0.5.0",
+    "better-sqlite3": "^7.5.3",
+    "discord-api-types": "^0.34.0",
+    "discord.js": "^13.8.0",
+    "dotenv": "^16.0.1",
+    "node-fetch": "^3.2.6",
+    "nodemon": "^2.0.16"
+  }
+}
